@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NewGameScript1.js">
+    <Files>
+      <File FileName="Assets\WinConditions.cs" Line="19" Column="37" />
+      <File FileName="Assets\enemyThrow.cs" Line="8" Column="23" />
+      <File FileName="Assets\LoseCondition.cs" Line="21" Column="39" />
+      <File FileName="Assets\EnemyAI.cs" Line="6" Column="24" />
+      <File FileName="Assets\NewGameScript1.js" Line="3" Column="35" />
+      <File FileName="Assets\EnemyDiscReturn.cs" Line="20" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

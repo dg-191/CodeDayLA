@@ -1,0 +1,71 @@
+Initialize engine version: 4.5.5f1 (7684ad0c5a44)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics 3000 (ID=0x116)
+    Vendor:   Intel
+    VRAM:     64 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Joesh\Documents\New Unity Project\Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Joesh\Documents\New Unity Project\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Joesh\Documents\New Unity Project\Test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Joesh\Documents\New Unity Project\Test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Joesh\Documents\New Unity Project\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Joesh\Documents\New Unity Project\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Joesh\Documents\New Unity Project\Test_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Joesh\Documents\New Unity Project\Test_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Joesh\Documents\New Unity Project\Test_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Joesh\Documents\New Unity Project\Test_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.085 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 0.650310 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 729.
+Total: 0.696494 ms (FindLiveObjects: 0.031255 ms CreateObjectMapping: 0.010263 ms MarkObjects: 0.092368 ms  DeleteObjects: 0.109162 ms)
+
+Platform assembly: C:\Users\Joesh\Documents\New Unity Project\Test_Data\Managed\Boo.Lang.dll (this message is harmless)
+UnloadTime: 1.274962 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 260.
+Total: 0.837379 ms (FindLiveObjects: 0.014928 ms CreateObjectMapping: 0.009796 ms MarkObjects: 0.081172 ms  DeleteObjects: 0.253313 ms)
+
+UnloadTime: 0.596661 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 729.
+Total: 0.643778 ms (FindLiveObjects: 0.025657 ms CreateObjectMapping: 0.010263 ms MarkObjects: 0.092368 ms  DeleteObjects: 0.102631 ms)
+
+UnloadTime: 1.225512 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 268.
+Total: 0.884496 ms (FindLiveObjects: 0.016327 ms CreateObjectMapping: 0.015394 ms MarkObjects: 0.113827 ms  DeleteObjects: 0.231853 ms)
+
+UnloadTime: 1.017450 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 729.
+Total: 0.827115 ms (FindLiveObjects: 0.033588 ms CreateObjectMapping: 0.015394 ms MarkObjects: 0.121758 ms  DeleteObjects: 0.134820 ms)
+
+UnloadTime: 1.160201 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 260.
+Total: 0.863036 ms (FindLiveObjects: 0.013062 ms CreateObjectMapping: 0.011662 ms MarkObjects: 0.076040 ms  DeleteObjects: 0.227655 ms)
+
+UnloadTime: 0.585465 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 729.
+Total: 0.642379 ms (FindLiveObjects: 0.026124 ms CreateObjectMapping: 0.017727 ms MarkObjects: 0.085837 ms  DeleteObjects: 0.103564 ms)
+
+UnloadTime: 1.215249 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 268.
+Total: 0.759472 ms (FindLiveObjects: 0.012595 ms CreateObjectMapping: 0.013995 ms MarkObjects: 0.082571 ms  DeleteObjects: 0.196865 ms)
+
