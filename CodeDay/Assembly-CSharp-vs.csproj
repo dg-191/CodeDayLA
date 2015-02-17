@@ -50,6 +50,7 @@
      <Compile Include="Assets\CS Script\EnemyAI.cs" />
      <Compile Include="Assets\CS Script\EnemyDiscReturn.cs" />
      <Compile Include="Assets\CS Script\IdleDisc.cs" />
+     <Compile Include="Assets\CS Script\Lookat.cs" />
      <Compile Include="Assets\CS Script\LoseCondition.cs" />
      <Compile Include="Assets\CS Script\Smash.cs" />
      <Compile Include="Assets\CS Script\Throw.cs" />
