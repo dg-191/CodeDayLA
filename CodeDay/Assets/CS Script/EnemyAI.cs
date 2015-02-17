@@ -1,7 +1,8 @@
-﻿using UnityEngine;
+﻿//make sure to add comments to any code changed
+using UnityEngine;
 using System.Collections;
 
-public class EnemyAI : MonoBehaviour {
+public class EnemyAI : MonoBehaviour {//behavior of how the enemy spawn will act and react
 
 	int moveChangeRate = 2;
 	float counter = 0.0f;
@@ -31,7 +32,7 @@ public class EnemyAI : MonoBehaviour {
 
 	}
 
-	void changeMove() {
+	void changeMove() {//change position and attack
 		int chooser = Random.Range (1, 10);
 		Vector3 decision = new Vector3 (0, 0, 0);
 		switch (chooser) {

@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿//make sure to add comments to any code changed
+//returns the disk
+using UnityEngine;
 using System.Collections;
 
 public class DiscReturn : MonoBehaviour {

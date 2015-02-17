@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿//make sure to add comments to any code changed
+using UnityEngine;
 using System.Collections;
 
 public class enemyMove: MonoBehaviour
@@ -9,8 +10,7 @@ public class enemyMove: MonoBehaviour
 	public float movementSpeed = 10;
 	private float direction = 0;
 	void Start(){
-
-
+	
 	}
 
 	void Update(){
@@ -18,7 +18,7 @@ public class enemyMove: MonoBehaviour
 		counter++;
 	}
 
-	void OnCollisionEnter (Collision col) {
+	void OnCollisionEnter (Collision col) { //This will detect a hit against the wall and return disk to enemy
 			if (col.collider.tag == "Wall") {
 				if(goingLeft && !goingForward)
 					goRight();
@@ -29,31 +29,31 @@ public class enemyMove: MonoBehaviour
 		}
 	}
 
-	void goRight(){
+	void goRight(){//moves enemy right
 		transform.Translate(Vector3.right * movementSpeed * Time.deltaTime);
 		goingLeft = false;
 		goingForward = false;
-		}
+	}
 
-	void goLeft(){
+	void goLeft(){//moves enemy left
 		transform.Translate(Vector3.left * movementSpeed * Time.deltaTime);
 		goingLeft = true;
 		goingForward = false;
-		}
+	}
 
-	void goForward(){
+	void goForward(){//moves enemy forward
 		transform.Translate (Vector3.forward * movementSpeed * Time.deltaTime);
 		goingForward = true;
 		goingLeft = false;
-		}
+	}
 
-	void goBackward(){
+	void goBackward(){//moves enemy backwards
 		transform.Translate (Vector3.back * movementSpeed * Time.deltaTime);
 		goingForward = false;
 		goingLeft = false;
 	}
 
-	void chooseDirection(){
+	void chooseDirection(){//randomly allows the enemy to choose its direction of motion
 		direction = Random.value * 100;
 		if(direction >= 0 && direction < 25)
 			goRight();

@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿//make sure to add comments to any code changed
+//the function that allows the enemy to choose and attack the player at will
+using UnityEngine;
 using System.Collections;
 
 public class enemyThrow : MonoBehaviour {
@@ -13,9 +15,7 @@ public class enemyThrow : MonoBehaviour {
 	Vector3 playerPosition = new Vector3 (0, 0, 0);
 
 	Vector3 distance = new Vector3 (0, 0, 0);
-
-		
-
+	
 	// Use this for initialization
 	void Start () {
 
@@ -32,10 +32,8 @@ public class enemyThrow : MonoBehaviour {
 		if(canAttack || failsafe >= 4){
 			attack();
 			canAttack = false;
-		
 		}
 	}
-
 	public void attack(){
 		disc.transform.position = myPosition + aSmidgeUp;
 		disc.rigidbody.velocity = distance * 1.5f;

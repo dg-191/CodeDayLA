@@ -1,9 +1,9 @@
-﻿ var levelToLoad : String;
- var beep : AudioClip;
- var QuitButton : boolean = false;
+﻿//make sure to add comments to any code changed
+var levelToLoad : String;
+var beep : AudioClip;
+var QuitButton : boolean = false;
 
-function OnMouseEnter()
-{
+function OnMouseEnter() {
 	renderer.material.color = Color.red;
 }
  function OnMouseUp(){
@@ -15,8 +15,7 @@ function OnMouseEnter()
          Application.LoadLevel(levelToLoad);
      }
  }
-function OnMouseExit()
-{
+function OnMouseExit() {
 	renderer.material.color = Color.white;
 }
 
